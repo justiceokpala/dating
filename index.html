@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Dating Site</title>
+</head>
+<body>
+    <h1>Please Enter your Details For Our Dating website!</h1>
+    <section class="container">
+        <form action="/self" method="POST" enctype="multipart/form-data">
+            <fieldset id="el">
+                <legend>Your face</legend>
+            <div>
+                <div>
+               <label for="yourimage">Your image:</label>
+                <input type="file"  autofocus placeholder="choose file"> 
+              </div>
+
+               <div>
+                <label for="yourname">Image Preview:</label>
+                </div>
+
+        
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend> Your General details</legend>
+             
+            <div>   
+                <div>
+                <label for="your full name">  Name</label>
+
+
+                <input type="text" id= "Yourfullname" placeholder="Yourfullname">
+                </div>
+            
+                <div>
+               <label>Gender</label>:male<input type="radio"  value="male">
+                female<input type="radio"  value="female">
+                </div>
+
+                <div>
+                 <label>Age </label>
+                <input type="number"> 
+                  </div>
+          
+                  <div>
+                 <label> Date of birth </label> <input type="date">
+
+                  </div>
+                  <div>
+                     <label>Favourite color </label><input type="color">
+                  </div>
+                  <div>
+                    <label>  Which country </label><input type="country">
+                  </div>
+                  
+              <div>
+
+            
+              </fieldset>  
+            </div>
+
+            <fieldset>
+                <legend>Your indicators</legend>
+
+                <div> <label>Height</label>:short
+                <input type="range" min="0" max="100">Tall
+                </div>
+              
+                <div>
+                      <label>salary</label>:poor
+                      <input type="range" min="o" max="100"> Rich
+                </div>
+                
+            </fieldset>
+
+            <fieldset>
+                <legend>Your contact Information</legend>
+                <div>
+                  <label>  Email </label>
+                    <input type="email">
+                </div>
+
+                <div>
+                  <label> Mobile </label>
+                    <input type="tel">
+                </div>
+
+                <div>
+                 
+
+               <label>  Address  </label>
+                    <textarea></textarea>
+                
+                </div>
+        
+           <label>method contact you: </label>
+            <input type="radio"> Email
+            <input type="radio"> Whatsapp
+            <input type="radio"> In app chat
+
+            </fieldset>
+            
+            <input type="submit">
+        </form>
+
+     
+    </section>
+</body>
+</html>

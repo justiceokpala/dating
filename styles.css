@@ -1,0 +1,23 @@
+fieldset{
+    border: 7px solid;
+    border-color: rgb(240, 240, 2);
+}
+body{
+    width: 60%;
+    margin-left: 240px;
+}
+section{
+    background-color: rgb(245, 245, 245);
+}
+
+label,input,textarea{
+    transition:  width 500ms, height 500ms ,transform 500ms;;
+}
+
+input:hover{
+    transform: scale(1,2);
+
+}
+label:hover{
+    font-size: 20px;
+}
